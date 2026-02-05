@@ -1,0 +1,29 @@
+.main-container {
+  height: 400px;
+  align-content: center;
+}
+.main-container h2 {
+  margin: 0;
+}
+.main-container p {
+  padding: 20px 0;
+}
+
+.login-button {
+  height: 50px;
+  width: 100%;
+  padding: 10px 20px;
+  height: 56px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: rgb(52, 52, 52);
+  border-color: lightgray;
+}
+

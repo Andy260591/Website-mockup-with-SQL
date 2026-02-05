@@ -1,0 +1,146 @@
+.header-section {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  justify-content: space-evenly;
+  height: 82px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.7) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 2;
+  position: fixed;
+  width: 100vw;
+  padding-top: 20px;
+}
+
+.header-section div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.header-section-modele {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  justify-content: space-evenly;
+  height: 82px;
+  background-color: white;
+  z-index: 2;
+  position: fixed;
+  width: 100vw;
+  padding-top: 20px;
+}
+
+.header-section-modele div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.right-section a,
+.right-section-modele a {
+  text-decoration: none;
+  color: inherit;
+}
+.center-section p {
+  padding-bottom: 50px;
+  color: white;
+  font-size: 24px;
+  font-family: Porsche;
+}
+.center-section-modele {
+  padding-bottom: 50px;
+  color: black;
+  font-size: 24px;
+  font-family: Porsche;
+}
+
+.left-section-container p {
+  padding-bottom: 20px;
+}
+
+.left-section {
+  transition: opacity 0.15s, transform 0.35 ease;
+}
+
+.left-section-container:hover {
+  opacity: 80%;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.meniu-icon {
+  height: 24px;
+  filter: invert();
+  z-index: 10;
+}
+
+.meniu-icon-modele {
+  height: 24px;
+  filter: none;
+  z-index: 10;
+}
+
+.meniu-icon-container {
+  padding-right: 10px;
+}
+.left-section-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.login-icon {
+  height: 20px;
+  filter: invert();
+}
+
+.login-container,
+.login-container-modele {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  transition: opacity 0.15s ease, transform 0.65 ease;
+}
+
+.login-container:hover,
+.login-container-modele:hover {
+  opacity: 80%;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.login-container img {
+  height: 24px;
+  margin: 0;
+  filter: invert();
+}
+
+.login-container-modele img {
+  height: 24px;
+  margin: 0;
+  filter: none;
+}
+
+.login-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: black;
+  font-size: larger;
+}
+
+.nav a:hover {
+  color: rgb(70, 70, 70);
+}
+
+.nav {
+  justify-content: center;
+}
