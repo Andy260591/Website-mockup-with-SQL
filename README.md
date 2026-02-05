@@ -1,0 +1,1 @@
+A responsive HTML/CSS/JS website mockup enhanced with PHP for dynamic content and CRUD functionality, backed by a MySQL database managed in phpMyAdmin. Includes server-side form handling, validation, and database queries for storing, reading, updating, and deleting site data.
